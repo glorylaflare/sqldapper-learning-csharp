@@ -113,7 +113,7 @@ Base route: `/api/todos`
 - `POST /` - cria um todo
 - `GET /` - lista todos
 - `GET /{id}` - busca por id
-- `GET /uncompleted` - lista por status (implementação atual)
+- `GET /notdone` - lista por status via query `isDone` (ex.: `GET /notdone?isDone=false` lista tarefas pendentes)
 - `PUT /{id}` - atualiza
 - `DELETE /{id}` - remove
 
